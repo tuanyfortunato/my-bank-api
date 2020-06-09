@@ -65,15 +65,4 @@ router.get('/:id', (req, res) => {
   })
 });
 
-
-/*
-router.post('/deleteList', (_, res) => {
-  fs.unlink(global.pathFile, (err) => {
-    if (err) {
-      res.status(400).send({ error: err });
-    }
-    res.send("Sucess!");
-  })
-});
-*/
 module.exports = router;
